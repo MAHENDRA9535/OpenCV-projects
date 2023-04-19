@@ -7,7 +7,7 @@ mpdraw = mp.solutions.drawing_utils
 mpPose = mp.solutions.pose
 pose = mpPose.Pose()
 
-cap = cv2.VideoCapture("posevideos/4.mp4")
+cap = cv2.VideoCapture(0)
 pTime =0
 
 
